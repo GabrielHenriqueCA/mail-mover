@@ -1,0 +1,33 @@
+2023-05-18T15:35:49,570  INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-05-18T15:35:49,592  INFO com.ms.email.MailMoverApplication - Starting MailMoverApplication using Java 19.0.2 with PID 19088 (C:\Users\Gabri\IdeaProjects\MailMover\target\classes started by Gabri in C:\Users\Gabri\IdeaProjects\MailMover)
+2023-05-18T15:35:49,593 DEBUG com.ms.email.MailMoverApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-18T15:35:49,593  INFO com.ms.email.MailMoverApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-18T15:35:49,972  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-18T15:35:50,020  INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-05-18T15:35:50,311  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-18T15:35:50,317  INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-18T15:35:50,317  INFO org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-18T15:35:50,318  INFO org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-18T15:35:50,372  INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-18T15:35:50,372  INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+2023-05-18T15:35:50,482  INFO org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-18T15:35:50,517  INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-18T15:35:50,719  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-18T15:35:50,812  INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25109608
+2023-05-18T15:35:50,813  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-18T15:35:50,849  INFO SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-18T15:35:51,334  INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-18T15:35:51,341  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-18T15:35:51,538  WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-18T15:35:51,864  WARN org.springframework.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-05-18T15:35:51,891  INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-18T15:35:51,902  INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-18T15:35:51,905  INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [chimpanzee.rmq.cloudamqp.com:5671]
+2023-05-18T15:35:52,924  INFO org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6b60d99c:0/SimpleConnection@7154a248 [delegate=amqp://yiiyfzju@35.153.225.39:5671/yiiyfzju, localPort=52628]
+2023-05-18T15:35:53,855  INFO com.ms.email.MailMoverApplication - Started MailMoverApplication in 4.543 seconds (process running for 5.078)
+2023-05-18T15:35:54,573  INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-05-18T15:35:54,997  INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-05-18T15:35:55,007  INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-05-18T15:35:55,155  INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-18T15:35:55,156  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-18T15:35:55,161  INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
