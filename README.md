@@ -84,7 +84,7 @@ The email microservice will start running on the configured port, and you can no
 
 ## Usage
 
-The email microservice provides endpoints for sending emails through API calls and message queuing. Refer to the [API documentation](docs) or the message queuing guidelines
+The email microservice provides endpoints for sending emails through API calls and message queuing. Refer to the [API documentation](docs.md) or the message queuing guidelines
 
  for detailed usage instructions.
 
